@@ -8,4 +8,4 @@ while ($rowuser = mysqli_fetch_assoc($sqlusers)) {
         $userfullenergyrefill = mysqli_query($connect, "UPDATE `players` SET energy='100' WHERE id='$rowuser[id]'");
     }
 }
-?>
+?> 
