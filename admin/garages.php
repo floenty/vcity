@@ -305,4 +305,4 @@ $(document).ready(function() {
 </script>
 <?php
 footer();
-?>
+?> 
